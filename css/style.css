@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: black;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.logo {
+    display: inline-block;
+    width: 40%;
+    max-width: 252px;
+    padding-bottom: 92px;
+    padding-left: 128px;
+}
+.logo img {
+    width: 100%;
+    float: right;
+}
+.logo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main_text{
+    display: inline-block;
+    width: 47%;
+    color: white;
+    font-size: 24px;
+    padding-top: 52px;
+}
+.main_text p {
+    margin: 40px 70px 0 60px;
+}
+.icon:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.icon {
+    display: inline-block;
+    line-height: 64px;
+    text-align: center;
+    width: 66px;
+    border: solid 3px white;
+    border-radius: 33px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 22px;
+}
+.icon i {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 22px;
+}
